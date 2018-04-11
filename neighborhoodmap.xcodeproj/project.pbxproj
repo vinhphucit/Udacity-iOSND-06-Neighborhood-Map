@@ -17,6 +17,17 @@
 		C5DAE615207E09E1000A8CBF /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE614207E09E1000A8CBF /* PhotosViewController.swift */; };
 		C5DAE617207E0A07000A8CBF /* FavouriteMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE616207E0A07000A8CBF /* FavouriteMapViewController.swift */; };
 		C5DAE619207E0A2B000A8CBF /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE618207E0A2B000A8CBF /* PreviewViewController.swift */; };
+		C5DAE61B207E44BC000A8CBF /* MapViewController+MapExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE61A207E44BC000A8CBF /* MapViewController+MapExtension.swift */; };
+		C5DAE61F207E46D3000A8CBF /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE61E207E46D3000A8CBF /* NetworkConstants.swift */; };
+		C5DAE621207E46DC000A8CBF /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE620207E46DC000A8CBF /* NetworkClient.swift */; };
+		C5DAE623207E46EC000A8CBF /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE622207E46EC000A8CBF /* NetworkRequest.swift */; };
+		C5DAE625207E46F7000A8CBF /* FileDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE624207E46F7000A8CBF /* FileDownloader.swift */; };
+		C5DAE627207E4769000A8CBF /* GCDBlackBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE626207E4769000A8CBF /* GCDBlackBox.swift */; };
+		C5DAE629207E4F14000A8CBF /* RestaurantParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE628207E4F14000A8CBF /* RestaurantParser.swift */; };
+		C5DAE62B207E51D8000A8CBF /* PhotoParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE62A207E51D8000A8CBF /* PhotoParser.swift */; };
+		C5DAE62D207E52DF000A8CBF /* MapUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE62C207E52DF000A8CBF /* MapUserDefault.swift */; };
+		C5DAE62F207E580A000A8CBF /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE62E207E580A000A8CBF /* ViewController+Extension.swift */; };
+		C5DAE631207E68F5000A8CBF /* MiscUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE630207E68F5000A8CBF /* MiscUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +43,17 @@
 		C5DAE614207E09E1000A8CBF /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		C5DAE616207E0A07000A8CBF /* FavouriteMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteMapViewController.swift; sourceTree = "<group>"; };
 		C5DAE618207E0A2B000A8CBF /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		C5DAE61A207E44BC000A8CBF /* MapViewController+MapExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapViewController+MapExtension.swift"; sourceTree = "<group>"; };
+		C5DAE61E207E46D3000A8CBF /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		C5DAE620207E46DC000A8CBF /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		C5DAE622207E46EC000A8CBF /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		C5DAE624207E46F7000A8CBF /* FileDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloader.swift; sourceTree = "<group>"; };
+		C5DAE626207E4769000A8CBF /* GCDBlackBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCDBlackBox.swift; sourceTree = "<group>"; };
+		C5DAE628207E4F14000A8CBF /* RestaurantParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantParser.swift; sourceTree = "<group>"; };
+		C5DAE62A207E51D8000A8CBF /* PhotoParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoParser.swift; sourceTree = "<group>"; };
+		C5DAE62C207E52DF000A8CBF /* MapUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUserDefault.swift; sourceTree = "<group>"; };
+		C5DAE62E207E580A000A8CBF /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		C5DAE630207E68F5000A8CBF /* MiscUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiscUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +101,7 @@
 			children = (
 				C5DAE60E207DF38A000A8CBF /* Remote */,
 				C5DAE60D207DF37C000A8CBF /* Local */,
+				C5DAE62C207E52DF000A8CBF /* MapUserDefault.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -104,6 +127,8 @@
 		C5DAE60B207DF33C000A8CBF /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C5DAE626207E4769000A8CBF /* GCDBlackBox.swift */,
+				C5DAE630207E68F5000A8CBF /* MiscUtils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -112,10 +137,12 @@
 			isa = PBXGroup;
 			children = (
 				C5DAE5F8207DF2D0000A8CBF /* MapViewController.swift */,
+				C5DAE61A207E44BC000A8CBF /* MapViewController+MapExtension.swift */,
 				C5DAE612207E09BC000A8CBF /* FavouriteViewController.swift */,
 				C5DAE614207E09E1000A8CBF /* PhotosViewController.swift */,
 				C5DAE616207E0A07000A8CBF /* FavouriteMapViewController.swift */,
 				C5DAE618207E0A2B000A8CBF /* PreviewViewController.swift */,
+				C5DAE62E207E580A000A8CBF /* ViewController+Extension.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -131,8 +158,30 @@
 		C5DAE60E207DF38A000A8CBF /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				C5DAE61D207E46BD000A8CBF /* Models */,
+				C5DAE61C207E46B4000A8CBF /* Networking */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		C5DAE61C207E46B4000A8CBF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				C5DAE61E207E46D3000A8CBF /* NetworkConstants.swift */,
+				C5DAE620207E46DC000A8CBF /* NetworkClient.swift */,
+				C5DAE622207E46EC000A8CBF /* NetworkRequest.swift */,
+				C5DAE624207E46F7000A8CBF /* FileDownloader.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C5DAE61D207E46BD000A8CBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5DAE628207E4F14000A8CBF /* RestaurantParser.swift */,
+				C5DAE62A207E51D8000A8CBF /* PhotoParser.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,13 +256,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DAE62F207E580A000A8CBF /* ViewController+Extension.swift in Sources */,
+				C5DAE61F207E46D3000A8CBF /* NetworkConstants.swift in Sources */,
+				C5DAE62D207E52DF000A8CBF /* MapUserDefault.swift in Sources */,
+				C5DAE621207E46DC000A8CBF /* NetworkClient.swift in Sources */,
 				C5DAE617207E0A07000A8CBF /* FavouriteMapViewController.swift in Sources */,
 				C5DAE613207E09BC000A8CBF /* FavouriteViewController.swift in Sources */,
+				C5DAE61B207E44BC000A8CBF /* MapViewController+MapExtension.swift in Sources */,
+				C5DAE631207E68F5000A8CBF /* MiscUtils.swift in Sources */,
 				C5DAE619207E0A2B000A8CBF /* PreviewViewController.swift in Sources */,
+				C5DAE625207E46F7000A8CBF /* FileDownloader.swift in Sources */,
 				C5DAE5F9207DF2D0000A8CBF /* MapViewController.swift in Sources */,
 				C5DAE5F7207DF2D0000A8CBF /* AppDelegate.swift in Sources */,
+				C5DAE629207E4F14000A8CBF /* RestaurantParser.swift in Sources */,
+				C5DAE623207E46EC000A8CBF /* NetworkRequest.swift in Sources */,
+				C5DAE62B207E51D8000A8CBF /* PhotoParser.swift in Sources */,
 				C5DAE611207E043F000A8CBF /* Restaurant.xcdatamodeld in Sources */,
 				C5DAE615207E09E1000A8CBF /* PhotosViewController.swift in Sources */,
+				C5DAE627207E4769000A8CBF /* GCDBlackBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
