@@ -1,4 +1,4 @@
-# Finding nearby restaurant 
+# Finding nearby restaurants
 
 ### This app was built for project 6 of Udacity's iOS Developer Nanodegree
 A neighborhood map built with AppleMap that shows locations of nearby restaurants. Restaurants will be got from FourSquare API, users can preview the restaurants and add them to their favourite list.
