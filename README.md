@@ -6,7 +6,7 @@ A neighborhood map built with AppleMap that shows locations of nearby restaurant
 # Project Details
 
 ### User Interface
-* ThreeFive main View Controllers:
+* Five main View Controllers:
   - Map View Controller
   - Preview View Controller
   - Favourite View Controller
