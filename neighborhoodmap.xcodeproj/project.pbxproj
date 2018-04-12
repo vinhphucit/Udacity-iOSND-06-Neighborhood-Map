@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C50D7FD4207E7C8500D9D1E2 /* PreviewViewController+CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FD3207E7C8500D9D1E2 /* PreviewViewController+CollectionViewExtension.swift */; };
+		C50D7FD7207E7D9300D9D1E2 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FD6207E7D9300D9D1E2 /* PhotoCell.swift */; };
+		C50D7FDA207E83AF00D9D1E2 /* PhotoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FD9207E83AF00D9D1E2 /* PhotoImage.swift */; };
+		C50D7FDD207E9ACB00D9D1E2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FDC207E9ACB00D9D1E2 /* Photo.swift */; };
+		C50D7FDF207E9AE500D9D1E2 /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FDE207E9AE500D9D1E2 /* Photo+CoreDataProperties.swift */; };
+		C50D7FE1207E9B7500D9D1E2 /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FE0207E9B7500D9D1E2 /* Favourite.swift */; };
+		C50D7FE3207E9B9600D9D1E2 /* Favourite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FE2207E9B9600D9D1E2 /* Favourite+CoreDataProperties.swift */; };
+		C50D7FE5207E9C2300D9D1E2 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FE4207E9C2300D9D1E2 /* DataController.swift */; };
+		C50D7FE7207EAE3900D9D1E2 /* FavouriteViewController+TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FE6207EAE3900D9D1E2 /* FavouriteViewController+TableViewExtension.swift */; };
+		C50D7FE9207EAF4300D9D1E2 /* FavouriteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FE8207EAF4300D9D1E2 /* FavouriteCell.swift */; };
+		C50D7FEB207EB18C00D9D1E2 /* FavouriteViewController+FetchedResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FEA207EB18C00D9D1E2 /* FavouriteViewController+FetchedResultsExtension.swift */; };
+		C50D7FED207EEBF500D9D1E2 /* PhotosViewController+CollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FEC207EEBF500D9D1E2 /* PhotosViewController+CollectionViewExtension.swift */; };
+		C50D7FEF207EED9100D9D1E2 /* PhotosViewController+FetchedResultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FEE207EED9100D9D1E2 /* PhotosViewController+FetchedResultsExtension.swift */; };
+		C50D7FF1207EFA2200D9D1E2 /* FavouriteMapViewController+MapExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50D7FF0207EFA2200D9D1E2 /* FavouriteMapViewController+MapExtension.swift */; };
 		C5DAE5F7207DF2D0000A8CBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE5F6207DF2D0000A8CBF /* AppDelegate.swift */; };
 		C5DAE5F9207DF2D0000A8CBF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DAE5F8207DF2D0000A8CBF /* MapViewController.swift */; };
 		C5DAE5FC207DF2D0000A8CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5DAE5FA207DF2D0000A8CBF /* Main.storyboard */; };
@@ -31,6 +45,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C50D7FD3207E7C8500D9D1E2 /* PreviewViewController+CollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PreviewViewController+CollectionViewExtension.swift"; sourceTree = "<group>"; };
+		C50D7FD6207E7D9300D9D1E2 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		C50D7FD9207E83AF00D9D1E2 /* PhotoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoImage.swift; sourceTree = "<group>"; };
+		C50D7FDC207E9ACB00D9D1E2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		C50D7FDE207E9AE500D9D1E2 /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C50D7FE0207E9B7500D9D1E2 /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		C50D7FE2207E9B9600D9D1E2 /* Favourite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favourite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C50D7FE4207E9C2300D9D1E2 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		C50D7FE6207EAE3900D9D1E2 /* FavouriteViewController+TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteViewController+TableViewExtension.swift"; sourceTree = "<group>"; };
+		C50D7FE8207EAF4300D9D1E2 /* FavouriteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteCell.swift; sourceTree = "<group>"; };
+		C50D7FEA207EB18C00D9D1E2 /* FavouriteViewController+FetchedResultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteViewController+FetchedResultsExtension.swift"; sourceTree = "<group>"; };
+		C50D7FEC207EEBF500D9D1E2 /* PhotosViewController+CollectionViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosViewController+CollectionViewExtension.swift"; sourceTree = "<group>"; };
+		C50D7FEE207EED9100D9D1E2 /* PhotosViewController+FetchedResultsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhotosViewController+FetchedResultsExtension.swift"; sourceTree = "<group>"; };
+		C50D7FF0207EFA2200D9D1E2 /* FavouriteMapViewController+MapExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FavouriteMapViewController+MapExtension.swift"; sourceTree = "<group>"; };
 		C5DAE5F3207DF2D0000A8CBF /* neighborhoodmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neighborhoodmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5DAE5F6207DF2D0000A8CBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5DAE5F8207DF2D0000A8CBF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +95,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C50D7FD5207E7D8400D9D1E2 /* ViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				C50D7FD6207E7D9300D9D1E2 /* PhotoCell.swift */,
+				C50D7FE8207EAF4300D9D1E2 /* FavouriteCell.swift */,
+			);
+			path = ViewCells;
+			sourceTree = "<group>";
+		};
+		C50D7FD8207E83A300D9D1E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C50D7FD9207E83AF00D9D1E2 /* PhotoImage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C50D7FDB207E9ABA00D9D1E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C50D7FDC207E9ACB00D9D1E2 /* Photo.swift */,
+				C50D7FDE207E9AE500D9D1E2 /* Photo+CoreDataProperties.swift */,
+				C50D7FE0207E9B7500D9D1E2 /* Favourite.swift */,
+				C50D7FE2207E9B9600D9D1E2 /* Favourite+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C5DAE5EA207DF2D0000A8CBF = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +144,7 @@
 			children = (
 				C5DAE5F6207DF2D0000A8CBF /* AppDelegate.swift */,
 				C5DAE608207DF31F000A8CBF /* Data */,
+				C50D7FD8207E83A300D9D1E2 /* Models */,
 				C5DAE60A207DF330000A8CBF /* Resources */,
 				C5DAE609207DF324000A8CBF /* Storyboards */,
 				C5DAE60B207DF33C000A8CBF /* Utilities */,
@@ -136,12 +193,19 @@
 		C5DAE60C207DF365000A8CBF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				C50D7FD5207E7D8400D9D1E2 /* ViewCells */,
 				C5DAE5F8207DF2D0000A8CBF /* MapViewController.swift */,
 				C5DAE61A207E44BC000A8CBF /* MapViewController+MapExtension.swift */,
 				C5DAE612207E09BC000A8CBF /* FavouriteViewController.swift */,
+				C50D7FE6207EAE3900D9D1E2 /* FavouriteViewController+TableViewExtension.swift */,
+				C50D7FEA207EB18C00D9D1E2 /* FavouriteViewController+FetchedResultsExtension.swift */,
 				C5DAE614207E09E1000A8CBF /* PhotosViewController.swift */,
+				C50D7FEC207EEBF500D9D1E2 /* PhotosViewController+CollectionViewExtension.swift */,
+				C50D7FEE207EED9100D9D1E2 /* PhotosViewController+FetchedResultsExtension.swift */,
 				C5DAE616207E0A07000A8CBF /* FavouriteMapViewController.swift */,
+				C50D7FF0207EFA2200D9D1E2 /* FavouriteMapViewController+MapExtension.swift */,
 				C5DAE618207E0A2B000A8CBF /* PreviewViewController.swift */,
+				C50D7FD3207E7C8500D9D1E2 /* PreviewViewController+CollectionViewExtension.swift */,
 				C5DAE62E207E580A000A8CBF /* ViewController+Extension.swift */,
 			);
 			path = ViewControllers;
@@ -150,7 +214,9 @@
 		C5DAE60D207DF37C000A8CBF /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				C50D7FDB207E9ABA00D9D1E2 /* Models */,
 				C5DAE60F207E043F000A8CBF /* Restaurant.xcdatamodeld */,
+				C50D7FE4207E9C2300D9D1E2 /* DataController.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -256,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50D7FF1207EFA2200D9D1E2 /* FavouriteMapViewController+MapExtension.swift in Sources */,
 				C5DAE62F207E580A000A8CBF /* ViewController+Extension.swift in Sources */,
 				C5DAE61F207E46D3000A8CBF /* NetworkConstants.swift in Sources */,
 				C5DAE62D207E52DF000A8CBF /* MapUserDefault.swift in Sources */,
@@ -265,14 +332,27 @@
 				C5DAE61B207E44BC000A8CBF /* MapViewController+MapExtension.swift in Sources */,
 				C5DAE631207E68F5000A8CBF /* MiscUtils.swift in Sources */,
 				C5DAE619207E0A2B000A8CBF /* PreviewViewController.swift in Sources */,
+				C50D7FDF207E9AE500D9D1E2 /* Photo+CoreDataProperties.swift in Sources */,
 				C5DAE625207E46F7000A8CBF /* FileDownloader.swift in Sources */,
+				C50D7FE5207E9C2300D9D1E2 /* DataController.swift in Sources */,
+				C50D7FDA207E83AF00D9D1E2 /* PhotoImage.swift in Sources */,
+				C50D7FEF207EED9100D9D1E2 /* PhotosViewController+FetchedResultsExtension.swift in Sources */,
 				C5DAE5F9207DF2D0000A8CBF /* MapViewController.swift in Sources */,
+				C50D7FEB207EB18C00D9D1E2 /* FavouriteViewController+FetchedResultsExtension.swift in Sources */,
+				C50D7FD4207E7C8500D9D1E2 /* PreviewViewController+CollectionViewExtension.swift in Sources */,
 				C5DAE5F7207DF2D0000A8CBF /* AppDelegate.swift in Sources */,
+				C50D7FE7207EAE3900D9D1E2 /* FavouriteViewController+TableViewExtension.swift in Sources */,
+				C50D7FE1207E9B7500D9D1E2 /* Favourite.swift in Sources */,
 				C5DAE629207E4F14000A8CBF /* RestaurantParser.swift in Sources */,
+				C50D7FE3207E9B9600D9D1E2 /* Favourite+CoreDataProperties.swift in Sources */,
 				C5DAE623207E46EC000A8CBF /* NetworkRequest.swift in Sources */,
 				C5DAE62B207E51D8000A8CBF /* PhotoParser.swift in Sources */,
+				C50D7FD7207E7D9300D9D1E2 /* PhotoCell.swift in Sources */,
+				C50D7FE9207EAF4300D9D1E2 /* FavouriteCell.swift in Sources */,
+				C50D7FDD207E9ACB00D9D1E2 /* Photo.swift in Sources */,
 				C5DAE611207E043F000A8CBF /* Restaurant.xcdatamodeld in Sources */,
 				C5DAE615207E09E1000A8CBF /* PhotosViewController.swift in Sources */,
+				C50D7FED207EEBF500D9D1E2 /* PhotosViewController+CollectionViewExtension.swift in Sources */,
 				C5DAE627207E4769000A8CBF /* GCDBlackBox.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +491,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9RVLWKLHY;
 				INFOPLIST_FILE = "$(SRCROOT)/neighborhoodmap/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phuctv.neighborhoodmap;
@@ -425,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J9RVLWKLHY;
 				INFOPLIST_FILE = "$(SRCROOT)/neighborhoodmap/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phuctv.neighborhoodmap;

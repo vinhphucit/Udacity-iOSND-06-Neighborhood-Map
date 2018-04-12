@@ -7,12 +7,19 @@
 //
 
 import UIKit
-
+import MapKit
 class FavouriteMapViewController: UIViewController {
+    @IBOutlet weak var mkMapView: MKMapView!
     
+    @IBOutlet weak var navigation: UINavigationItem!
+    
+    
+    var venue: Favourite?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       setupMap()
+        navigation.title = venue?.name
+        
     }
     
     override func didReceiveMemoryWarning() {

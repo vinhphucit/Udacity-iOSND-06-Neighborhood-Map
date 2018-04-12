@@ -41,7 +41,10 @@ extension MapViewController: MKMapViewDelegate {
             let lon = Double((pin.location?.lng)!)
             annotation.coordinate = CLLocationCoordinate2DMake(lat, lon)
             annotation.title = pin.name
-            annotation.subtitle = pin.location?.address!
+            if let address = pin.location?.address {
+                    annotation.subtitle = address
+            }
+            
             mkMapView.addAnnotation(annotation)
             data["\(lat),\(lon)"] = pin
         }

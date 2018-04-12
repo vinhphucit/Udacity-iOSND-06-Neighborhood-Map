@@ -13,10 +13,10 @@ struct PhotoParser: Codable {
 }
 
 struct ResponsePhoto: Codable {
-    let photos: [Photo]
+    let photos: PhotoItem?
 }
 
-struct Photo: Codable {
+struct PhotoItem: Codable {
     let count: Int?
     let items: [Item]
 }
@@ -24,5 +24,5 @@ struct Photo: Codable {
 struct Item: Codable {
     let id: String?
     let prefix: String?
-    let suffix: String?
+    let suffix: String?    
 }

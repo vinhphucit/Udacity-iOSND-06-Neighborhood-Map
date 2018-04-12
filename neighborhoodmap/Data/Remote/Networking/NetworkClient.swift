@@ -84,7 +84,9 @@ class NetworkClient: NSObject {
     func doSearchRestaurants(latitude: Double, longitude: Double, currentRadius: Double, completion: @escaping (_ data: RestaurantParser?, _ error : String?) -> Void) {
         makeRequest(.search(latitude: latitude, longitude: longitude, currentRadius: currentRadius), type: RestaurantParser.self, completion: completion)
     }
-    
+    func doGetPhotos(venueid: String, completion: @escaping (_ data: PhotoParser?, _ error : String?) -> Void) {
+        makeRequest(.photos(venueid: venueid), type: PhotoParser.self, completion: completion)
+    }
     static let shared = NetworkClient()
 }
 

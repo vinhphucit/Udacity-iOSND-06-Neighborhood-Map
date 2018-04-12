@@ -7,12 +7,18 @@
 //
 
 import UIKit
-
+import CoreData
 class FavouriteViewController: UIViewController {
+    @IBOutlet weak var tvFavourite: UITableView!
+    var selectedIndexes = [IndexPath]()
+    var insertedIndexPaths: [IndexPath]!
+    var deletedIndexPaths: [IndexPath]!
+    var updatedIndexPaths: [IndexPath]!
+    var fetchedResultsController: NSFetchedResultsController<Favourite>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        setupFetchedResultController()
     }
     
     override func didReceiveMemoryWarning() {
@@ -20,7 +26,16 @@ class FavouriteViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToFavouritePhotoSegue" {
+            let sender = sender as? Favourite
+            if let venue = sender {
+                let secondViewController = segue.destination as! PhotosViewController
+                secondViewController.venue = venue
+            }
+            
+        }
+    }
 }
 
 

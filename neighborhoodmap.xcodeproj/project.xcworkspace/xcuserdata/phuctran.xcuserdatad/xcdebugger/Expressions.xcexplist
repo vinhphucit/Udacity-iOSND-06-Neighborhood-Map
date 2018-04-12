@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "PreviewViewController.onClickAddButton(_:):PreviewViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "venue?.location?.lat">
+            </PersistentString>
+            <PersistentString
+               value = "pin?.lat">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in PreviewViewController.downloadImage(using:photo:collectionView:index:):PreviewViewController+CollectionViewExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "index.row">
+            </PersistentString>
+            <PersistentString
+               value = "collectionView.cellForItem(at: index)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FavouriteMapViewController.showPinsOnMap():FavouriteMapViewController+MapExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(venue?.lat)!!">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PhotosViewController.viewDidLoad():PhotosViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PreviewViewController.collectionView(_:cellForItemAt:):PreviewViewController+CollectionViewExtension.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PhotosViewController.setupFetchedResultController():PhotosViewController+FetchedResultsExtension.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -86,7 +86,7 @@ enum APIRequest {
         case .search:
             return NetworkConstants.FourSquareMethods.Search
         case .photos(let venueid):
-            return "\(NetworkConstants.FourSquareMethods.Photos)/\(venueid)"
+            return "/\(venueid)\(NetworkConstants.FourSquareMethods.Photos)"
         
         }
     }
